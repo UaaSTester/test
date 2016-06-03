@@ -2,17 +2,10 @@
  * Created by matcurtis on 6/3/16.
  */
 public class Hello {
-
+    String nameID;
         public Hello(String name){
-            //Hello obj = new Hello(name);
-            System.out.println("Unique ID : " + generateUniqueKey());
+             nameID = name +" "+ generateUniqueKey();
         }
-
-    /*public static void main( String[] args )
-    {
-        Hello obj = new Hello();
-        System.out.println("Unique ID : " + obj.generateUniqueKey());
-    }*/
 
     public String generateUniqueKey(){
 

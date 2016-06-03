@@ -10,6 +10,6 @@ public class helloTest {
     {
             Hello hlo = new Hello("Matthew");
 
-        //System.out.println("Unique ID : " + hlo.generateUniqueKey());
+        System.out.println("Unique ID : " + hlo.nameID);
     }
 }
