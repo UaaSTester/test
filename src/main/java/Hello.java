@@ -3,11 +3,16 @@
  */
 public class Hello {
 
-    public static void main( String[] args )
+        public Hello(String name){
+            //Hello obj = new Hello(name);
+            System.out.println("Unique ID : " + generateUniqueKey());
+        }
+
+    /*public static void main( String[] args )
     {
         Hello obj = new Hello();
         System.out.println("Unique ID : " + obj.generateUniqueKey());
-    }
+    }*/
 
     public String generateUniqueKey(){
 
